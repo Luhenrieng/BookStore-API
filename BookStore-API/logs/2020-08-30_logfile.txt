@@ -1,0 +1,13 @@
+2020-08-30 17:17:02.3744 INFO Attempted Get All Authors
+2020-08-30 17:17:14.8498 ERROR Cannot open database "BookStore" requested by the login. The login failed.
+Login failed for user 'EUROPE\lhenriqueoliveira'. - 
+2020-08-30 17:18:13.1323 INFO Attempted Get All Authors
+2020-08-30 17:18:28.0834 ERROR Cannot open database "BookStore" requested by the login. The login failed.
+Login failed for user 'EUROPE\lhenriqueoliveira'. - 
+2020-08-30 17:20:01.6577 INFO Attempted Get All Authors
+2020-08-30 17:21:10.7520 ERROR Cannot open database "BookStore" requested by the login. The login failed.
+Login failed for user 'EUROPE\lhenriqueoliveira'. - 
+2020-08-30 17:25:32.8494 INFO Attempted Get All Authors
+2020-08-30 17:25:47.1788 INFO Successfuly got all authors
+2020-08-30 17:47:35.8204 INFO Attempted Get author with id:1
+2020-08-30 17:47:37.0530 WARN Author with id 1 was not found.
