@@ -1,0 +1,40 @@
+2020-09-02 17:00:59.5607 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Author
+System.Object -> BookStore_API.Data.Author - 
+2020-09-02 17:01:31.5469 INFO Attempted Get All Authors
+2020-09-02 17:01:32.6990 INFO Successfuly got all authors
+2020-09-02 17:02:24.8462 INFO Attempted Get All Authors
+2020-09-02 17:02:24.9144 INFO Successfuly got all authors
+2020-09-02 17:02:41.4081 INFO Attempted Get All Authors
+2020-09-02 17:02:41.4335 INFO Successfuly got all authors
+2020-09-02 17:02:42.7195 INFO Attempted Get All Authors
+2020-09-02 17:02:42.7401 INFO Successfuly got all authors
+2020-09-02 17:02:46.3389 INFO Attempted Get All Authors
+2020-09-02 17:02:46.3570 INFO Successfuly got all authors
+2020-09-02 17:02:47.4044 INFO Attempted Get All Authors
+2020-09-02 17:02:47.4256 INFO Successfuly got all authors
+2020-09-02 17:03:56.1625 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Author
+System.Object -> BookStore_API.Data.Author - 
+2020-09-02 17:04:49.9801 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Author
+System.Object -> BookStore_API.Data.Author - 
+2020-09-02 17:06:09.4601 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Author
+System.Object -> BookStore_API.Data.Author - 
+2020-09-02 17:08:37.0428 INFO Attempted Get All Authors
+2020-09-02 17:08:37.3002 INFO Successfuly got all authors
+2020-09-02 17:08:42.1953 INFO Attempted Get All Authors
+2020-09-02 17:08:42.2248 INFO Successfuly got all authors
+2020-09-02 17:08:43.8282 INFO Attempted Get All Authors
+2020-09-02 17:08:43.8509 INFO Successfuly got all authors
+2020-09-02 17:09:31.0842 INFO Attempted Get All Authors
+2020-09-02 17:09:31.1081 INFO Successfuly got all authors

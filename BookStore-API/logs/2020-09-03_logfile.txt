@@ -1,0 +1,19 @@
+2020-09-03 16:55:41.2344 INFO Attempted Get All Authors
+2020-09-03 16:55:42.5256 INFO Successfuly got all authors
+2020-09-03 16:57:31.4396 INFO Author with id: 1 Update Attempted
+2020-09-03 16:57:31.4498 WARN Empt request was submitted
+2020-09-03 16:58:18.1892 INFO Author with id: 1 Update Attempted
+2020-09-03 16:58:54.9998 INFO Attempted Get All Authors
+2020-09-03 16:58:55.0309 INFO Successfuly got all authors
+2020-09-03 17:02:42.3676 INFO Attempted Get author with id:1
+2020-09-03 17:02:42.5030 INFO Successfuly got author with id:1
+2020-09-03 17:02:47.4433 INFO Attempted Get author with id:2
+2020-09-03 17:02:47.4702 INFO Successfuly got author with id:2
+2020-09-03 17:02:51.6409 INFO Attempted Get author with id:1
+2020-09-03 17:02:51.6619 INFO Successfuly got author with id:1
+2020-09-03 17:45:32.9524 INFO Author with id: 5 Delete Attempted
+2020-09-03 17:45:34.0247 WARN Author with id: 5 was not found.
+2020-09-03 17:45:41.2942 INFO Author with id: 2 Delete Attempted
+2020-09-03 17:45:41.5080 WARN Author with id: 2 successfuly deleted.
+2020-09-03 17:45:56.4487 INFO Attempted Get All Authors
+2020-09-03 17:45:56.5161 INFO Successfuly got all authors

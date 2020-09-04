@@ -22,6 +22,27 @@
             <param name="id"></param>
             <returns></returns>
         </member>
+        <member name="M:BookStore_API.Controllers.AuthorsController.Create(BookStore_API.DTOs.AuthorCreateDTO)">
+            <summary>
+            Creates an author
+            </summary>
+            <param name="authorDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.AuthorsController.Update(System.Int32,BookStore_API.DTOs.AuthorUpdateDTO)">
+            <summary>
+            Updates an author
+            </summary>
+            <param name="author"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.AuthorsController.Delete(System.Int32)">
+            <summary>
+            Removes an author
+            </summary>
+            <param name="author"></param>
+            <returns></returns>
+        </member>
         <member name="M:BookStore_API.Controllers.HomeController.Get">
             <summary>
             Gets Values
