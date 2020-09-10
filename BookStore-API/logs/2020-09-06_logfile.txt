@@ -1,0 +1,99 @@
+2020-09-06 10:55:55.7485 INFO Books - GetBooks: Attempted call
+2020-09-06 10:56:00.5930 INFO Books - GetBooks: Successful
+2020-09-06 10:56:16.0324 INFO Books - GetBook: Attempted call for id: 1
+2020-09-06 10:56:16.6833 WARN Books - GetBook: Failed to retrieve book information with id: 1
+2020-09-06 10:56:42.8722 INFO Attempted Get All Authors
+2020-09-06 10:56:43.3245 INFO Successfuly got all authors
+2020-09-06 11:38:55.0186 INFO Books - Create: Create Attempted
+2020-09-06 11:38:58.4092 ERROR Books - Create : An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Books_Authors". The conflict occurred in database "BookStore", table "dbo.Authors", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:7b10d1fa-4e35-41d2-bf3b-0d7c66d3c32c
+Error Number:547,State:0,Class:16
+2020-09-06 11:41:35.4181 INFO Books - Create: Create Attempted
+2020-09-06 11:41:36.0016 ERROR Books - Create : An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Books_Authors". The conflict occurred in database "BookStore", table "dbo.Authors", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:7b10d1fa-4e35-41d2-bf3b-0d7c66d3c32c
+Error Number:547,State:0,Class:16
+2020-09-06 11:41:45.8473 INFO Books - Create: Create Attempted
+2020-09-06 11:41:46.1039 ERROR Books - Create: Creation filed
+2020-09-06 11:42:02.0049 INFO Authors - GetAuthors: Attempted Get All Authors
+2020-09-06 11:42:02.6597 INFO Authors - GetAuthors: Successfuly got all authors
+2020-09-06 11:42:15.0727 INFO Books - Create: Create Attempted
+2020-09-06 11:42:15.1142 ERROR Books - Create: Creation filed
+2020-09-06 11:43:18.2699 INFO Books - GetBooks: Attempted call
+2020-09-06 11:43:18.9161 ERROR Books - GetBooks : Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-09-06 15:04:56.9754 INFO Authors - GetAuthors: Attempted Get All Authors
+2020-09-06 15:04:57.0474 INFO Authors - GetAuthors: Successfuly got all authors
+2020-09-06 15:05:00.1055 INFO Authors - GetAuthor: Attempted Get author with id:1
+2020-09-06 15:05:00.3642 INFO Authors - GetAuthor: Successfuly got author with id:1
+2020-09-06 15:05:07.3382 INFO Books - Create: Create Attempted
+2020-09-06 15:05:07.3786 ERROR Books - Create: Creation filed
+2020-09-06 15:06:18.3291 INFO Books - GetBooks: Attempted call
+2020-09-06 15:06:18.5921 ERROR Books - GetBooks : Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-09-06 15:06:19.9274 INFO Books - GetBooks: Attempted call
+2020-09-06 15:06:20.1562 ERROR Books - GetBooks : Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-09-06 15:06:45.9605 INFO Books - GetBook: Attempted call for id: 3
+2020-09-06 15:06:46.3081 ERROR Books - GetBook : Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-09-06 15:06:54.5400 INFO Books - GetBooks: Attempted call
+2020-09-06 15:06:54.7688 ERROR Books - GetBooks : Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-09-06 15:07:20.4508 INFO Books - GetBooks: Attempted call
+2020-09-06 15:07:42.9717 ERROR Books - GetBooks : Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-09-06 15:09:01.7169 INFO Books - GetBooks: Attempted call
+2020-09-06 15:09:09.6201 ERROR Books - GetBooks : Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-09-06 15:10:55.3177 INFO Books - Create: Create Attempted
+2020-09-06 15:10:55.3582 ERROR Books - Create: Creation filed
+2020-09-06 15:14:49.7781 INFO Books - GetBooks: Attempted call
+2020-09-06 15:15:09.4168 INFO Books - GetBooks: Successful
+2020-09-06 15:15:36.1812 INFO Books - GetBook: Attempted call for id: 1
+2020-09-06 15:15:36.6455 WARN Books - GetBook: Failed to retrieve book information with id: 1
+2020-09-06 15:15:41.8936 INFO Books - GetBook: Attempted call for id: 5
+2020-09-06 15:15:41.9648 WARN Books - GetBook: Failed to retrieve book information with id: 5
+2020-09-06 15:15:49.5113 INFO Books - GetBook: Attempted call for id: 6
+2020-09-06 15:15:49.5849 INFO Books - GetBook: Successful got record with id: 6
+2020-09-06 15:15:58.1769 INFO Books - GetBooks: Attempted call
+2020-09-06 15:15:58.2181 INFO Books - GetBooks: Successful
+2020-09-06 15:37:59.0236 INFO Books - GetBooks: Attempted call
+2020-09-06 15:38:02.1655 INFO Books - GetBooks: Successful
+2020-09-06 15:39:03.4374 INFO Books - Update: Update Attempted on record with id: 3
+2020-09-06 15:39:04.1555 INFO Books - Update: Update book with id: 3 was successful
+2020-09-06 15:39:04.1853 INFO Books - Update: BookStore_API.Data.Book
+2020-09-06 15:39:08.1210 INFO Books - GetBooks: Attempted call
+2020-09-06 15:39:08.1819 INFO Books - GetBooks: Successful
+2020-09-06 15:39:35.4409 INFO Authors - GetAuthors: Attempted Get All Authors
+2020-09-06 15:39:35.5673 INFO Authors - GetAuthors: Successfuly got all authors
+2020-09-06 16:00:37.3520 INFO Books - GetBooks: Attempted call
+2020-09-06 16:00:38.5707 INFO Books - GetBooks: Successful
+2020-09-06 16:00:46.7775 INFO Books - Delete: Delete Attempted on record with id: 3
+2020-09-06 16:00:47.0774 INFO Books - Delete: Delete book with id: 3 was successful
+2020-09-06 16:00:51.7821 INFO Books - GetBooks: Attempted call
+2020-09-06 16:00:51.8109 INFO Books - GetBooks: Successful

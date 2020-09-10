@@ -1,0 +1,38 @@
+2020-09-10 20:59:53.4314 INFO Books - GetBooks: Attempted call
+2020-09-10 20:59:57.9103 INFO Books - GetBooks: Successful
+2020-09-10 21:00:08.7181 INFO Books - Delete: Delete Attempted on record with id: 3
+2020-09-10 21:00:09.3817 WARN Books - Delete: Failed to delete data with id: 3
+2020-09-10 21:02:37.7823 INFO Authors - GetAuthors: Attempted Get All Authors
+2020-09-10 21:02:37.9260 INFO Authors - GetAuthors: Successfuly got all authors
+2020-09-10 21:02:56.9241 INFO Books - Create: Create Attempted
+2020-09-10 21:02:58.7576 ERROR Books - Create : An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Books_Authors". The conflict occurred in database "BookStore", table "dbo.Authors", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:a2eb3d64-44c5-4d65-af9a-37f499b55303
+Error Number:547,State:0,Class:16
+2020-09-10 21:03:06.8654 INFO Books - Create: Create Attempted
+2020-09-10 21:03:07.0268 INFO Books - Create: Creation was successful
+2020-09-10 21:03:07.0733 INFO Books - Create: BookStore_API.Data.Book
+2020-09-10 21:03:51.8662 INFO Books - Create: Create Attempted
+2020-09-10 21:03:51.9787 INFO Books - Create: Creation was successful
+2020-09-10 21:03:52.0658 INFO Books - Create: BookStore_API.Data.Book
+2020-09-10 21:03:59.4662 INFO Books - GetBooks: Attempted call
+2020-09-10 21:03:59.5624 INFO Books - GetBooks: Successful
+2020-09-10 21:04:42.8303 INFO Books - Delete: Delete Attempted on record with id: 1003
+2020-09-10 21:04:43.2132 INFO Books - Delete: Delete book with id: 1003 was successful
+2020-09-10 21:04:49.7000 INFO Books - GetBooks: Attempted call
+2020-09-10 21:04:49.8397 INFO Books - GetBooks: Successful
