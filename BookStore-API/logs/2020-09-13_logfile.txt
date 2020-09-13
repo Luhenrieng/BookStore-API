@@ -1,0 +1,36 @@
+2020-09-13 12:18:15.9860 INFO Users - Login: Login attenpted for user admin
+2020-09-13 12:18:16.4486 INFO Users - Login: admin successfully authenticated.
+2020-09-13 12:20:07.5665 INFO Users - Login: Login attenpted for user admin
+2020-09-13 12:20:07.7875 INFO Users - Login: admin successfully authenticated.
+2020-09-13 12:20:17.6273 INFO Users - Login: Login attenpted for user admin
+2020-09-13 12:20:17.7096 INFO Users - Login: admin not authenticated.
+2020-09-13 12:20:24.6319 INFO Users - Login: Login attenpted for user admin
+2020-09-13 12:20:24.7200 INFO Users - Login: admin not authenticated.
+2020-09-13 12:20:39.7826 INFO Users - Login: Login attenpted for user admin
+2020-09-13 12:20:39.8716 INFO Users - Login: admin successfully authenticated.
+2020-09-13 12:28:03.2698 INFO Authors - GetAuthors: Attempted Get All Authors
+2020-09-13 12:28:03.6545 INFO Authors - GetAuthors: Successfuly got all authors
+2020-09-13 12:29:09.6755 INFO Authors - GetAuthor: Attempted Get author with id:1
+2020-09-13 12:29:09.7829 INFO Authors - GetAuthor: Successfuly got author with id:1
+2020-09-13 12:33:18.6216 INFO Users - Login: Login attenpted for user admin
+2020-09-13 12:33:19.1792 INFO Users - Login: admin successfully authenticated.
+2020-09-13 12:44:45.9695 INFO Users - Login: Login attenpted for user admin
+2020-09-13 12:44:46.1741 INFO Users - Login: admin successfully authenticated.
+2020-09-13 12:45:21.9947 INFO Users - Login: Login attenpted for user admin
+2020-09-13 12:45:22.1086 INFO Users - Login: admin successfully authenticated.
+2020-09-13 12:47:24.0231 INFO Users - Login: Login attenpted for user admin
+2020-09-13 12:47:24.5986 INFO Users - Login: admin successfully authenticated.
+2020-09-13 12:51:48.0822 INFO Authors - Create: Creation was successful
+2020-09-13 12:51:48.1047 INFO Authors - Create: BookStore_API.Data.Author
+2020-09-13 12:52:14.8692 INFO Authors - GetAuthors: Attempted Get All Authors
+2020-09-13 12:52:15.0428 INFO Authors - GetAuthors: Successfuly got all authors
+2020-09-13 12:53:08.4763 INFO Authors - Create: Creation was successful
+2020-09-13 12:53:08.5117 INFO Authors - Create: BookStore_API.Data.Author
+2020-09-13 12:58:52.9092 INFO Users - Login: Login attenpted for user admin
+2020-09-13 12:58:53.4412 INFO Users - Login: admin successfully authenticated.
+2020-09-13 12:59:10.7015 INFO Authors - Create: Creation was successful
+2020-09-13 12:59:10.7253 INFO Authors - Create: BookStore_API.Data.Author
+2020-09-13 12:59:22.0541 INFO Authors - GetAuthors: Attempted Get All Authors
+2020-09-13 12:59:22.2001 INFO Authors - GetAuthors: Successfuly got all authors
+2020-09-13 13:00:06.9805 INFO Users - Login: Login attenpted for user customer1
+2020-09-13 13:00:07.1812 INFO Users - Login: customer1 successfully authenticated.
