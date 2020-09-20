@@ -1,0 +1,58 @@
+﻿@page "/Register"
+@using BookStore_UI.Models
+@using BookStore_UI.Contracts
+
+@inject IAuthenticationRepository _authRepo
+@inject NavigationManager _navMan
+
+    <div class="card">
+        <h3 class="card-title">Register Now</h3>
+        @if (isFailed)
+        {
+            <div class="alert alert-danger">
+                <p>Something went wrong with the registration attempt</p>
+            </div>
+        }
+        <div class="card-body">
+            <EditForm Model="Model" OnValidSubmit="HandleRegistration">
+                <DataAnnotationsValidator></DataAnnotationsValidator>
+                <ValidationSummary></ValidationSummary>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <InputText Id="email" class="form-control" @bind-Value="Model.EmailAddress"></InputText>
+                    <ValidationMessage For="@(() => Model.EmailAddress)"></ValidationMessage>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <InputText Id="password" type="password" class="form-control" @bind-Value="Model.Password"></InputText>
+                    <ValidationMessage For="@(() => Model.Password)"></ValidationMessage>
+                </div>
+                <div class="form-group">
+                    <label for="confirmpassword">Confirm Password</label>
+                    <InputText Id="confirmpassword" type="password" class="form-control" @bind-Value="Model.ConfirmPassword"></InputText>
+                    <ValidationMessage For="@(() => Model.ConfirmPassword)"></ValidationMessage>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </EditForm>
+        </div>
+    </div>
+
+@code {
+    private RegistrationModel Model = new RegistrationModel();
+    bool isFailed = false;
+
+    private async Task HandleRegistration()
+    {
+        var response = await _authRepo.Register(Model);
+
+        if(response)
+        {
+            _navMan.NavigateTo("/");
+        }
+        else
+        {
+            isFailed = true;
+        }
+    }
+}
