@@ -1,0 +1,38 @@
+2020-10-11 11:11:15.5975 INFO Users - Login: Login attenpted for user teste1@bookstore.com
+2020-10-11 11:11:15.8417 INFO Users - Login: teste1@bookstore.com successfully authenticated.
+2020-10-11 11:12:09.8033 INFO Users - Login: Login attenpted for user teste1@bookstore.com
+2020-10-11 11:12:09.8468 INFO Users - Login: teste1@bookstore.com successfully authenticated.
+2020-10-11 11:13:53.7500 INFO Users - Login: Login attenpted for user teste1@bookstore.com
+2020-10-11 11:13:53.7927 INFO Users - Login: teste1@bookstore.com successfully authenticated.
+2020-10-11 11:14:07.4025 INFO Users - Login: Login attenpted for user teste1@bookstore.com
+2020-10-11 11:14:07.4597 INFO Users - Login: teste1@bookstore.com successfully authenticated.
+2020-10-11 11:17:59.1136 INFO Users - Register: Registration Attempt for teste@bookstore2.com
+2020-10-11 11:18:41.4035 INFO Users - Register: Registration Attempt for teste@bookstore2.com
+2020-10-11 11:18:41.4454 ERROR Users - Register: DuplicateUserName User name 'teste@bookstore2.com' is already taken.
+2020-10-11 11:18:41.4616 ERROR Users - Register: teste@bookstore2.com User registration Attempt Failed
+2020-10-11 11:19:07.6360 INFO Users - Login: Login attenpted for user teste@bookstore2.com
+2020-10-11 11:19:07.6753 INFO Users - Login: teste@bookstore2.com successfully authenticated.
+2020-10-11 11:19:47.0976 INFO Users - Login: Login attenpted for user teste@bookstore2.com
+2020-10-11 11:19:47.1706 INFO Users - Login: teste@bookstore2.com successfully authenticated.
+2020-10-11 11:21:24.1465 INFO Users - Login: Login attenpted for user teste@bookstore2.com
+2020-10-11 11:21:47.1004 INFO Users - Login: teste@bookstore2.com successfully authenticated.
+2020-10-11 11:32:53.2721 INFO Users - Login: Login attenpted for user teste@bookstore2.com
+2020-10-11 11:32:53.3761 INFO Users - Login: teste@bookstore2.com successfully authenticated.
+2020-10-11 11:41:14.5619 INFO Users - Login: Login attenpted for user teste@bookstore2.com
+2020-10-11 11:41:14.7976 INFO Users - Login: teste@bookstore2.com successfully authenticated.
+2020-10-11 11:42:43.2137 INFO Users - Login: Login attenpted for user teste@bookstore2.com
+2020-10-11 11:42:43.4229 INFO Users - Login: teste@bookstore2.com successfully authenticated.
+2020-10-11 11:44:46.8043 INFO Users - Login: Login attenpted for user teste@bookstore2.com
+2020-10-11 11:44:47.0178 INFO Users - Login: teste@bookstore2.com successfully authenticated.
+2020-10-11 11:46:14.9623 INFO Users - Login: Login attenpted for user teste@bookstore2.com
+2020-10-11 11:46:15.1778 INFO Users - Login: teste@bookstore2.com successfully authenticated.
+2020-10-11 11:49:53.1256 INFO Users - Login: Login attenpted for user teste@bookstore2.com
+2020-10-11 11:49:53.3453 INFO Users - Login: teste@bookstore2.com successfully authenticated.
+2020-10-11 17:40:26.3098 INFO Users - Login: Login attenpted for user teste@bookstore2.com
+2020-10-11 17:40:26.8550 INFO Users - Login: teste@bookstore2.com successfully authenticated.
+2020-10-11 17:42:49.0219 INFO Users - Login: Login attenpted for user teste@bookstore2.com
+2020-10-11 17:42:49.1184 INFO Users - Login: teste@bookstore2.com successfully authenticated.
+2020-10-11 19:15:05.9568 INFO Users - Login: Login attenpted for user teste@bookstore2.com
+2020-10-11 19:15:06.5123 INFO Users - Login: teste@bookstore2.com successfully authenticated.
+2020-10-11 19:21:24.6826 INFO Users - Login: Login attenpted for user teste@bookstore2.com
+2020-10-11 19:21:25.4318 INFO Users - Login: teste@bookstore2.com successfully authenticated.
